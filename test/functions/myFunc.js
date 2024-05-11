@@ -6,6 +6,6 @@ exports = async function(changeEvent) {
       const result = await collection.updateOne(
         { _id: documentKey._id },
         { $set: { createdAt: Date.now() } }
-      );kkkk
+      );
     }
 };
